@@ -30,22 +30,27 @@ Audio-only files will play without opening a video window.
 ```bash
 pip install -r requirements.txt
 ```
-
+### Step 2:
 Run dual-movie.exe
-OR
+
+### OR
 If you wish to compile from source:
 
-### Step 1.
+### Step 1:
 ```bash
 pip install -r requirements.txt
 ```
-### Step 2.
+### Step 2:
+```bash
 pip install pyinstaller
+```
 
-### Step 3.
+### Step 3:
+```bash
 pyinstaller --onefile dual-movie.py
+```
 
-### Step 4.
+### Step 4:
 The exe file will be in the dist/ folder. 
 Video files must be in the same folder as .exe!
 
